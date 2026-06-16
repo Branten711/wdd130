@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #E8ECED;
+            color: #fff;
+            font-family: Arial;
+            font-size: 20px;
+            text-align: center;
+        }
+        .everything {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 30px;
+            background-image: url("images/christus.webp");
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 40px auto;
+            border: 10px solid #000;
+            border-radius: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        }
+        h1, h2 {
+            grid-column: 1 / -1;
+            margin: 0;
+        }
+        .first-presidency, .first-row, .second-row, .third-row {
+            grid-column: 1 / -1;
+
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        #eyring, #christofferson {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 10px solid #fff;
+            transition: transform .5s, border-color .3s;
+            box-shadow: 5px 5px 10px #6f7364;
+        }
+         #eyring:hover, #christofferson:hover {
+            opacity: .75;
+            transform: scale(1.1);
+            border-color: gold;
+         }
+        #anderson, #bednar, #causse,
+        #uchtdorf, #cook, #gong,
+        #holland, #kearon, #rasband,
+        #renlund, #soares, #stevenson {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 10px solid #fff;
+            transition: transform .5s, border-color .3s;
+            box-shadow: 5px 5px 10px #6f7364;
+        }
+        #anderson:hover, #bednar:hover, #causse:hover,
+        #uchtdorf:hover, #cook:hover, #gong:hover,
+        #holland:hover, #kearon:hover, #rasband:hover,
+        #renlund:hover, #soares:hover, #stevenson:hover {
+            opacity: .75;
+            transform: scale(1.1);
+            border-color: gold;
+        }
+        #oaks {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px #6f7364;
+            border: 10px solid #fff;
+            transition: transform .5s, border-color .3s;
+        }
+        #oaks:hover {
+            opacity: .75;
+            transform: scale(1.1);
+            border-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <section class="everything">
+        <h1>First Presidency</h1>
+        <section class="first-presidency">
+            <img id="eyring" src="images/eyring.webp" alt="President Eyring">
+            <img id="oaks" src="images/oaks.webp" alt="President Oaks">
+            <img id="christofferson" src="images/christofferson.webp" alt="President Christofferson">
+        </section>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <section class="first-row">
+            <img id="holland" src="images/holland.webp" alt="President Holland">
+            <img id="uchtdorf" src="images/uchtdorf.webp" alt="Uchtdorf">
+            <img id="bednar" src="images/bednar.webp" alt="Bednar">
+            <img id="cook" src="images/cook.webp" alt="Cook">
+        </section>
+        <section class="second-row">
+            <img id="anderson" src="images/anderson.webp" alt="Anderson">
+            <img id="rasband" src="images/rasband.webp" alt="Rasband">
+            <img id="stevenson" src="images/stevenson.webp" alt="Stevenson">
+            <img id="renlund" src="images/renlund.webp" alt="Renlund">
+        </section>
+        <section class="third-row">
+            <img id="gong" src="images/gong.webp" alt="Gong">
+            <img id="soares" src="images/soares.webp" alt="Soares">
+            <img id="kearon" src="images/kearon.webp" alt="Kearon">
+            <img id="causse" src="images/causse.webp" alt="causse">
+        </section>
+    </section>
+</body>
+</html>

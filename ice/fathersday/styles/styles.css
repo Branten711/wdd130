@@ -1,0 +1,104 @@
+/* Add your CSS here to style your father's day page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+#wrapper {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 0;
+}
+
+nav li {
+  font-weight: bold;
+  color: #2a5298;
+  background: #e0eafc;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+nav li:hover {
+  background: lightblue;
+}
+
+h1 {
+  color: #2a5298;
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #2a5298;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+section {
+  margin-bottom: 1.5em;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0eafc;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 24px auto;
+  border-radius: 12px;
+  border: 8px solid #fff;
+  outline: 2px solid #2a5298;
+  outline-offset: 8px;
+  transition: transform 0.3s, box-shadow 0.3s, rotate 0.3s;
+  box-shadow: 0 8px 24px rgba(42,82,152,0.18), 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+img:hover {
+  transform: rotate(-4deg) scale(1.04);
+  box-shadow: 0 16px 32px rgba(42,82,152,0.22), 0 4px 16px rgba(0,0,0,0.12);
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background: #2a5298;
+  padding: 18px 0 12px 0;
+  border-radius: 0 0 16px 16px;
+  margin-top: 32px;
+  font-size: 1.1em;
+}
+
+
